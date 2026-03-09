@@ -5,14 +5,14 @@
 
 #### 主要贡献:  
 - 完成燧原S60推理卡驱动部署与环境适配，基于Bert模型进行推理验证与稳定性测试；通过Python脚本自动化采集显卡状态、问题日志及内存利用率，实现性能数据可视化分析，输出测试结果与硬件适配报告。  
-![enflame-test-1-1.png](pic/enflame-test-1-1.png)   
-![enflame-test-1-2.png](pic/enflame-test-1-2.png)   
-![enflame-test-1-3.png](pic/enflame-test-1-3.png)
+![enflame-test-1-1.png](static/assets/img/enflame-test-1-1.png)   
+![enflame-test-1-2.png](static/assets/img/enflame-test-1-2.png)   
+![enflame-test-1-3.png](static/assets/img/enflame-test-1-3.png)
 - 独立完成DeepSeek-70B大模型在燧原GCU环境的部署，设计并执行并发数2–256全区间Benchmark测试，统计TTFT、TPOT、ITL等核心指标，分析KVCache变化规律，输出完整性能测试报告。  
-![enflame-test-2-1.png](pic/enflame-test-2-1.png)   
-![enflame-test-2-2.png](pic/enflame-test-2-2.png)   
+![enflame-test-2-1.png](static/assets/img/enflame-test-2-1.png)   
+![enflame-test-2-2.png](static/assets/img/enflame-test-2-2.png)   
 - 与燧原官方协同排查服务器卡间通信异常，负责问题同步、日志反馈与问题复现，协助定位根因并推动故障解决，保障项目顺利推进。  
-![enflame-test-2-3.png](pic/enflame-test-2-3.png)
+![enflame-test-2-3.png](static/assets/img/enflame-test-2-3.png)
 
 ---
 
@@ -29,7 +29,7 @@
 
 #### 项目功能:
 (目前还在开发阶段，项目位于gitee私人仓库中，开发完成后经允许方可公开)
-![hroumi.png](pic/hroumi.png)
+![hroumi.png](static/assets/img/hroumi.png)
 
 ---
 
@@ -44,7 +44,9 @@
 - 设计日志向量化存储方案，将审核通过的日志数据存入Chroma向量数据库，在LLM异常判断环节落地RAG检索功能，通过相似事件召回增强模型决策依据，显著提升异常判断准确性与可信度，可精准监测自定义Python工具诱发的攻击行为，验证系统可行性与实用性，为毕业课题提供核心技术支撑、加速课题推进效率。
 #### 项目功能:
 (目前还在开发阶段，项目位于gitee私人仓库中，开发完成后经允许方可公开)
-![sys-design.png](pic/sys-design.png)
+![sys-design.png](static/assets/img/sys-design.png)
+
+---
 
 ### 本科项目
 
