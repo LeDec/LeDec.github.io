@@ -1,20 +1,22 @@
 [![LeDec](https://img.shields.io/badge/LeDec-github-blue?logo=github)](https://github.com/LeDec)
 
-I'm currently pursuing a Master's degree in Computer Technology at Nankai University.
+### 李 东 (Dong Li)
 
-#### Contact  
-**Email:** <code>lidecember@qq.com</code>  
-**Phone:** 18233815263  
-**WeChat:** led001213
+#### 联系方式
+**电话:** 18233815263  
+**微信号:** led001213  
+**邮箱:** <code>lidecember@qq.com</code>
 
-#### Education  
-**Nankai University** (985/211/Double First-Class), Master of Computer Technology (2024.09 – 2027.06)  
-• GPA: 89.59/100  
-• Thesis: Research on Dynamic Monitoring System for SuanYuan-NVIDIA Heterogeneous Computing Agent Based on eBPF  
+#### 教育经历
+**南开大学** (985/211/双一流)，计算机技术硕士  
+*2024.09 - 2027.06 (硕士在读)*  
+• **GPA:** 89.59/100  
+• **毕业设计题目:** 基于 eBPF 的燧原-NVIDIA 异构算力 Agent 动态监测系统的研究
 
-**Hebei University of Technology** (211/Double First-Class), Bachelor of Computer Science and Technology (2020.09 – 2024.06)  
-• GPA: 3.89/4.0 (Top 10%)  
-• Honors/Awards: 3rd Prize in the 15th China College Computer Design Competition  
+**河北工业大学** (211/双一流)，计算机科学与技术学士  
+*2020.09 - 2024.06 (本科毕业)*  
+• **GPA:** 3.89/4.0 (Top 10%)  
+• **荣誉/奖项:** 第15届中国大学生计算机设计大赛全国三等奖
 
-#### Research Interests  
+#### 研究兴趣
 XX, XX, XX, XX.
