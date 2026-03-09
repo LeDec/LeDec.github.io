@@ -1,21 +1,34 @@
-### **Software Engineer Intern**  
-**January 2025 – June 2025 | ByteDance**  
+### **燧原S60推理卡模型部署与测试**  
+**2024年4月 – 2025年6月 | 模型部署与性能测试**  
 
-Worked on the development and optimization of large-scale recommendation systems, focusing on algorithm improvements and system efficiency enhancements. Contributed to real-time data processing pipelines and model optimization for personalized content delivery.
+负责燧原S60推理卡的驱动部署与环境适配，基于Bert模型进行推理验证与稳定性测试，并通过自动化脚本实现性能数据可视化分析。
 
-#### Key Contributions:  
-- Developed and optimized recommendation algorithms to enhance user engagement and content relevance.  
-- Designed and implemented real-time data processing workflows to improve model inference efficiency.  
-- Conducted A/B testing and performance analysis to refine recommendation strategies based on user behavior data.  
+#### 主要贡献:  
+- 完成燧原S60推理卡驱动部署与环境适配，基于Bert模型进行推理验证与稳定性测试；通过Python脚本自动化采集显卡状态、问题日志及内存利用率，实现性能数据可视化分析，输出测试结果与硬件适配报告。  
+- 独立完成DeepSeek-70B大模型在燧原GCU环境的部署，设计并执行并发数2–256全区间Benchmark测试，统计TTFT、TPOT、ITL等核心指标，分析KVCache变化规律，输出完整性能测试报告。  
+- 与燧原官方协同排查服务器卡间通信异常，负责问题同步、日志反馈与问题复现，协助定位根因并推动故障解决，保障项目顺利推进。  
 
 ---
 
-### **软件工程师实习生**  
-**2025年1月 – 2025年6月 | 字节跳动**  
+### **基于燧原算力的模型训推一体平台**  
+**2025年9月 – 2026年2月 | 核心开发者**  
 
-负责大规模推荐系统的开发与优化，专注于算法改进和系统效率提升。参与实时数据处理管道的构建，并优化模型推理流程，以提升个性化内容推荐效果。
+基于FastAPI开发后端接口，使用Docker与k3s完成平台容器化部署与弹性伸缩，集成燧原device-plugin，实现集群对节点资源信息的统一捕获与管理。
 
 #### 主要贡献:  
-- 研发并优化推荐算法，提高用户互动率和内容相关性。  
-- 设计并实现实时数据处理流程，提升模型推理的计算效率。  
-- 进行A/B测试与性能分析，基于用户行为数据优化推荐策略。
+- 基于FastAPI (Python) 开发后端接口，使用Docker与k3s完成平台容器化部署与弹性伸缩，集成燧原device-plugin，实现集群对节点资源信息的统一捕获与管理，保障平台算力调度的稳定性。  
+- 完成Oumi开源框架环境搭建与适配，修改框架源码开发燧原GCU硬件适配模块，成功实现国产算力与训推平台的深度兼容，打通国产硬件与教学训推场景的适配壁垒。  
+- 搭建k3s分布式集群，通过Docker容器化部署并结合NFS实现跨节点数据共享，有效解决教学场景多终端数据同步、算力统一调度的核心痛点，满足高校AI教学的高可用需求。  
+- 整合Label Studio实现标注数据采集与管理，适配YOLOv8等教学常用模型，优化前端交互与系统性能，打通"数据标注—模型训练—推理评估"教学全流程，大幅降低师生AI实验技术门槛，提升教学实验效率。  
+
+---
+
+### **基于eBPF的Agent意图监测系统**  
+**2026年1月 – 2026年3月 | 核心开发者**  
+
+主导服务器进程行为日志结构化聚合体系设计，基于PID/PPID递归构建进程血缘树，实现"进程-操作-资源"全链路时序关联。
+
+#### 主要贡献:  
+- 主导服务器进程行为日志结构化聚合体系设计，基于PID/PPID递归构建进程血缘树，通过毫秒级时间戳排序实现"进程-操作-资源"全链路时序关联，高效解决单日志碎片化、多进程行为无迹可寻的核心痛点，为系统异常监测提供基础支撑。  
+- 基于FastAPI+SQLite搭建监控系统核心架构，支撑监控任务创建、日志自动化分析、异常事件审核等全流程操作，联动AI助手完成前端可视化开发，彻底解决监控数据可视化缺失、操作流程割裂的问题，完成完整监控体系搭建并通过服务器环境测试验证。  
+- 设计日志向量化存储方案，将审核通过的日志数据存入Chroma向量数据库，在LLM异常判断环节落地RAG检索功能，通过相似事件召回增强模型决策依据，显著提升异常判断准确性与可信度，可精准监测自定义Python工具诱发的攻击行为，验证系统可行性与实用性，为毕业课题提供核心技术支撑、加速课题推进效率。
