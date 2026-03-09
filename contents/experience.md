@@ -5,14 +5,28 @@
 
 #### 主要贡献:  
 - 完成燧原S60推理卡驱动部署与环境适配，基于Bert模型进行推理验证与稳定性测试；通过Python脚本自动化采集显卡状态、问题日志及内存利用率，实现性能数据可视化分析，输出测试结果与硬件适配报告。  
-![enflame-test-1-1.png](static/assets/img/enflame-test-1-1.png)   
-![enflame-test-1-2.png](static/assets/img/enflame-test-1-2.png)   
-![enflame-test-1-3.png](static/assets/img/enflame-test-1-3.png)
+
+<div style="display: flex; gap: 10px; margin: 10px 0;">
+  <img src="static/assets/img/enflame-test-1-1.png" style="width: 49%; height: auto;">
+  <img src="static/assets/img/enflame-test-1-2.png" style="width: 49%; height: auto;">
+</div>
+
+<div style="margin: 10px 0;">
+  <img src="static/assets/img/enflame-test-1-3.png" style="width: 100%; max-width: 800px; height: auto;">
+</div>
+
 - 独立完成DeepSeek-70B大模型在燧原GCU环境的部署，设计并执行并发数2–256全区间Benchmark测试，统计TTFT、TPOT、ITL等核心指标，分析KVCache变化规律，输出完整性能测试报告。  
-![enflame-test-2-1.png](static/assets/img/enflame-test-2-1.png)   
-![enflame-test-2-2.png](static/assets/img/enflame-test-2-2.png)   
+
+<div style="display: flex; gap: 10px; margin: 10px 0;">
+  <img src="static/assets/img/enflame-test-2-1.png" style="width: 49%; height: auto;">
+  <img src="static/assets/img/enflame-test-2-2.png" style="width: 49%; height: auto;">
+</div>
+
 - 与燧原官方协同排查服务器卡间通信异常，负责问题同步、日志反馈与问题复现，协助定位根因并推动故障解决，保障项目顺利推进。  
-![enflame-test-2-3.png](static/assets/img/enflame-test-2-3.png)
+
+<div style="margin: 10px 0;">
+  <img src="static/assets/img/enflame-test-2-3.png" style="width: 100%; max-width: 800px; height: auto;">
+</div>
 
 ---
 
@@ -29,7 +43,10 @@
 
 #### 项目功能:
 (目前还在开发阶段，项目位于gitee私人仓库中，开发完成后经允许方可公开)
-![hroumi.png](static/assets/img/hroumi.png)
+
+<div style="margin: 10px 0;">
+  <img src="static/assets/img/hroumi.png" style="width: 100%; max-width: 800px; height: auto;">
+</div>
 
 ---
 
@@ -42,9 +59,13 @@
 - 主导服务器进程行为日志结构化聚合体系设计，基于PID/PPID递归构建进程血缘树，通过毫秒级时间戳排序实现"进程-操作-资源"全链路时序关联，高效解决单日志碎片化、多进程行为无迹可寻的核心痛点，为系统异常监测提供基础支撑。  
 - 基于FastAPI+SQLite搭建监控系统核心架构，支撑监控任务创建、日志自动化分析、异常事件审核等全流程操作，联动AI助手完成前端可视化开发，彻底解决监控数据可视化缺失、操作流程割裂的问题，完成完整监控体系搭建并通过服务器环境测试验证。  
 - 设计日志向量化存储方案，将审核通过的日志数据存入Chroma向量数据库，在LLM异常判断环节落地RAG检索功能，通过相似事件召回增强模型决策依据，显著提升异常判断准确性与可信度，可精准监测自定义Python工具诱发的攻击行为，验证系统可行性与实用性，为毕业课题提供核心技术支撑、加速课题推进效率。
+
 #### 项目功能:
 (目前还在开发阶段，项目位于gitee私人仓库中，开发完成后经允许方可公开)
-![sys-design.png](static/assets/img/sys-design.png)
+
+<div style="margin: 10px 0;">
+  <img src="static/assets/img/sys-design.png" style="width: 100%; max-width: 800px; height: auto;">
+</div>
 
 ---
 

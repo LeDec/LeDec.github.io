@@ -1,4 +1,2 @@
-### **Blogs & Profiles**
-
 - [CSDN 博客](https://blog.csdn.net/m0_53240771)
 - [Gitee 主页](https://gitee.com/Lidecember)
