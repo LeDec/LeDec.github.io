@@ -1,72 +1,85 @@
-![Github Forks](https://img.shields.io/github/forks/Yixin0313/personal-homepage-template?style=flat)
-![Github Stars](https://img.shields.io/github/stars/Yixin0313/personal-homepage-template?style=flat)
+![Github Forks](https://img.shields.io/github/forks/LeDec/LeDec.github.io?style=flat)
+![Github Stars](https://img.shields.io/github/stars/LeDec/LeDec.github.io?style=flat)
 ![License](https://img.shields.io/github/license/Yixin0313/personal-homepage-template)
 
-# 通用个人主页模板：适用于学术和求职场景 | A general-purpose template: suitable for both academic and professional use.
+# LeDec的个人主页 | LeDec's Personal Homepage
+
+> 本模板基于 [Yixin0313/personal-homepage-template](https://github.com/Yixin0313/personal-homepage-template) 进行修改  
+> This template is modified from [Yixin0313/personal-homepage-template](https://github.com/Yixin0313/personal-homepage-template)
 
 ## 预览 | Preview
-[![Screenshot of the Website](https://raw.githubusercontent.com/Yixin0313/personal-homepage-template/main/screenshot_full.png)](https://yixin0313.github.io/personal-homepage-template/)
 
-## 介绍 | Introduction
+访问我的主页 | Visit my homepage: [https://ledec.github.io](https://ledec.github.io)
 
-这是一个**通用的个人主页模板**，基于 [Sen Li 的学术主页模板](https://github.com/senli1073/senli1073.github.io) 进行修改。  
+## 关于我 | About Me
 
-我新增了**工作经历板块**，使其更加适用于程序员和求职者。并且使用了中英文对照版本。
+- **姓名 | Name:** 李东 (Dong Li)
+- **学校 | School:** 南开大学 (Nankai University)
+- **专业 | Major:** 计算机技术 (Computer Technology)
+- **学历 | Degree:** 硕士在读 (Master's Candidate, 2024.09 - 2027.06)
 
-This is a **general-purpose personal website template**, modified from [Sen Li's academic template](https://github.com/senli1073/senli1073.github.io).  
+## 项目经历 | Projects
 
-I have added a **work experience section**, making it more practical for programmers and job seekers.
+1. **燧原S60推理卡模型部署与测试** (2024.04 - 2025.06)
+2. **基于燧原算力的模型训推一体平台** (2025.09 - 2026.02)
+3. **基于eBPF的Agent意图监测系统** (2026.01 - 2026.03)
 
-Bilibili教程视频：【【2025最新保姆级教程】手把手教你用github制作个人主页（申学找工作必备）】https://www.bilibili.com/video/BV16nNMeFEzm?vd_source=79b688b1a191b9f9e8204aa1c3d0adab
+详细信息请查看 [experience.md](./contents/experience.md)
 
-CSDN教程：https://blog.csdn.net/qq_45743991/article/details/145505150?spm=1001.2014.3001.5502
+## 联系方式 | Contact
 
-## 快速开始 | Getting Start
-### 1. Fork 该仓库 | Fork this repository
+- **邮箱 | Email:** lidecember@qq.com
+- **电话 | Phone:** 18233815263
+- **微信 | WeChat:** led001213
+- **CSDN:** [https://blog.csdn.net/m0_53240771](https://blog.csdn.net/m0_53240771)
+- **Gitee:** [https://gitee.com/Lidecember](https://gitee.com/Lidecember)
+
+---
+
+## 原模板介绍 | Original Template Introduction
+
+这是一个**通用的个人主页模板**，基于 [Sen Li 的学术主页模板](https://github.com/senli1073/senli1073.github.io) 进行修改。
+
+新增了**工作经历板块**，使其更加适用于程序员和求职者。并且使用了中英文对照版本。
+
+Bilibili教程视频：【【2025最新保姆级教程】手把手教你用github制作个人主页（申学找工作必备）】https://www.bilibili.com/video/BV16nNMeFEzm
+
+CSDN教程：https://blog.csdn.net/qq_45743991/article/details/145505150
+
+## 快速开始 | Getting Started
+
+### 1. Fork 该仓库
+
 仓库名称应命名为 `<用户名>.github.io`，这样你的个人网站地址将是 `https://<用户名>.github.io/`。
 
-The repository name should be `<username>.github.io`, which will also be your website's URL.
+### 2. 编辑页面内容
 
-
-### 2.  编辑页面内容 | Edit page content
-(1) 进入你想存放项目的文件夹，并克隆新的仓库 | Go to the folder where you want to store your project, and clone the new repository:
-```
+(1) 克隆仓库:
+```bash
 git clone https://github.com/<username>/<username>.github.io.git
 ```
-项目的目录结构如下 | The directory structure is as follows:
 
-```.
-.
-├── contents
-└── static
-    ├── assets
-    │   └── img
-    ├── css
-    └── js
-```
+(2) 修改 `contents/*.md` 中的各个板块内容
 
-(2) 修改各个板块的内容 | Modify the content of each section, which corresponds to `contents/*.md`.
+(3) 在 `contents/config.yml` 中调整网站设置
 
-(3) 调整网站设置 | Adjust the title, copyright information, and other text of the website in `contents/config.yml`
+(4) 在 `static/assets/img/` 中替换图片
 
-(4) 替换图片 | Replace background image and photo with new ones for your web pages in `static/assets/img/`
-
-(5) 提交更改 | Push it: 
-```
+(5) 提交更改:
+```bash
 git commit -am 'init'
 git push
 ```
 
+### 3. 访问你的网站
 
-### 3. 访问你的网站 | Enjoy
+打开浏览器，访问 `https://<用户名>.github.io`
 
-打开浏览器，访问 https://<用户名>.github.io，即可查看你的个人主页
-
-Fire up a browser and go to `https://<username>.github.io`
-
-
+---
 
 ## License
-本项目基于 MIT 许可协议，你可以自由使用和修改此模板。 Yixin Huang 2025年2月7号
 
-Copyright Yixin Huang, 2025. Licensed under an MIT license. You can copy and mess with this template.
+本项目基于 MIT 许可协议。
+
+原模板作者: Yixin Huang, 2025  
+本项目修改者: Dong Li, 2026
